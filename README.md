@@ -1,6 +1,6 @@
 # Alpha Blog
 
-A simple blogging application built with Ruby on Rails to practice full CRUD functionality (Create, Read, Update, Delete). This project is part of learning Rails basics and follows the Alpha Blog tutorial.
+A simple blogging application built with Ruby on Rails to practice full CRUD functionality (Create, Read, Update, Delete). This project is part of learning Rails basics and master it lol
 
 ## Features
 
