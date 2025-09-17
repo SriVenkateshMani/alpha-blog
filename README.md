@@ -1,24 +1,39 @@
-# README
+# Alpha Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple blogging application built with Ruby on Rails to practice full CRUD functionality (Create, Read, Update, Delete). This project is part of learning Rails basics and follows the Alpha Blog tutorial.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- Create, read, update, and delete articles
+- Flash messages for success/error notifications
+- Validations on article fields
+- RESTful routes (`resources :articles`)
+- Server-rendered views using ERB templates
 
-* System dependencies
+## Tech Stack
 
-* Configuration
+- Ruby on Rails (7.x)
+- SQLite3 (development/test)
+- PostgreSQL (production optional)
+- Turbo / Hotwire for improved interactivity
+- Bootstrap (optional, for styling)
 
-* Database creation
+## Quick Start
 
-* Database initialization
+```bash
+# Clone the repo
+git clone https://github.com/your-username/alpha-blog.git
+cd alpha-blog
 
-* How to run the test suite
+# Install dependencies
+bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+# Set up the database
+rails db:create db:migrate
 
-* Deployment instructions
+# Start the server
+rails server
 
-* ...
+# Visit the server
+http://localhost:3000
+```
